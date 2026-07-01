@@ -1,6 +1,6 @@
 'use strict';
 
-const mongoose = require('mongoose');
+const mongoose = require('./InMemoryDb');
 const bcrypt = require('bcryptjs');
 const crypto = require('crypto');
 

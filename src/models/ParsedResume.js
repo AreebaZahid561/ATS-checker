@@ -1,6 +1,6 @@
 'use strict';
 
-const mongoose = require('mongoose');
+const mongoose = require('./InMemoryDb');
 
 const educationSchema = new mongoose.Schema({
   institution: { type: String, default: '' },

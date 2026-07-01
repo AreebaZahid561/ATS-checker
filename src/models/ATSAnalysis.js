@@ -1,6 +1,6 @@
 'use strict';
 
-const mongoose = require('mongoose');
+const mongoose = require('./InMemoryDb');
 
 const categoryScoreSchema = new mongoose.Schema({
   score: { type: Number, min: 0, max: 100, required: true },

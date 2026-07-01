@@ -1,5 +1,5 @@
 const request = require('supertest');
-const mongoose = require('mongoose');
+const mongoose = require('../src/models/InMemoryDb');
 const app = require('../src/app');
 const User = require('../src/models/User');
 

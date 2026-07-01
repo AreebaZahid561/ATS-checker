@@ -1,1 +1,1 @@
-# ATS-checker
+The master branch contains the latest stable version of the ATS Checker API, including authentication, resume parsing, ATS analysis, Swagger documentation, security features, and automated tests. Future enhancements such as AI resume optimization and job description matching will be added in upcoming updates
